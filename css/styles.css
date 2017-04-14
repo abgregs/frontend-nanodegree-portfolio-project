@@ -1,0 +1,137 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #2d3c49;
+  font-weight: 300;
+}
+
+.logo {
+  margin-top: 20px;
+  height: 100px;
+  width: 120px;
+}
+
+hr {
+  border: none;
+  height: 6px;
+  background-color: #999;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.heading-super {
+  font-size: 46px;
+  font-family: 'Kanit', sans-serif;
+}
+
+.subheading-super {
+  font-size: 24px;
+
+}
+
+.text-muted {
+  color: #7d97ad;
+}
+
+.heading-medium {
+  font-size: 36px;
+  letter-spacing: 2px;
+  padding-left: 10px;
+  margin: 25px 0px;
+}
+
+.subheading-small {
+  font-size: 16px;
+}
+
+.project-image {
+  height: 67%;
+  width: 100%;
+
+}
+
+.projects {
+  margin-bottom: 25px;
+}
+
+.modal-description {
+  padding: 10px;
+  font-size: 16px;
+}
+
+@media only screen and (max-width : 992px) {
+  .heading-super {
+    font-size: 42px;
+  }
+
+  .subheading-super {
+    font-size: 20px;
+  }
+
+  .heading-medium {
+    font-size: 32px;
+    letter-spacing: 2px;
+  }
+
+  .heading-small {
+    font-size: 20px;
+  }
+    }
+
+@media only screen and (max-width : 768px) {
+  .heading-super {
+    font-size: 38px;
+  }
+
+  .subheading-super {
+    font-size: 16px;
+  }
+
+  .heading-medium {
+    font-size: 26px;
+    letter-spacing: 2px;
+  }
+
+  .heading-small {
+    font-size: 18px;
+  }
+
+  hr {
+    height: 3px;
+  }
+   }
+
+@media only screen and (max-width : 480px) {
+  .heading-super {
+    font-size: 32px;
+  }
+
+  .subheading-super {
+    font-size: 14px;
+  }
+
+  .heading-small {
+    font-size: 16px;
+  }
+
+  .subheading-small {
+    font-size: 14px;
+  }
+
+  .heading-medium {
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin: 10px 0px;
+  }
+
+  hr {
+    height: 2px;
+  }
+
+  .logo {
+    margin-top: 20px;
+    height: 67px;
+    width: 80px;
+  }
+}
