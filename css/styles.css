@@ -25,6 +25,10 @@ hr {
   font-family: 'Kanit', sans-serif;
 }
 
+.heading-small {
+  font-size: 20px;
+}
+
 .subheading-super {
   font-size: 24px;
 
@@ -42,7 +46,7 @@ hr {
 }
 
 .subheading-small {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .project-image {
@@ -60,7 +64,23 @@ hr {
   font-size: 16px;
 }
 
-@media only screen and (max-width : 992px) {
+.col-sm-4:nth-child(3n+1){
+    clear: left;
+}
+
+.col-sm-4 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.project-image:hover {
+    background-color: #000;
+    border-radius: 25px;
+    opacity:0.6;
+    cursor:pointer;
+}
+
+@media only screen and (max-width : 1050px) {
   .heading-super {
     font-size: 42px;
   }
@@ -75,8 +95,9 @@ hr {
   }
 
   .heading-small {
-    font-size: 20px;
+    font-size: 16px;
   }
+
     }
 
 @media only screen and (max-width : 768px) {
@@ -112,7 +133,7 @@ hr {
   }
 
   .heading-small {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .subheading-small {
